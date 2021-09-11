@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  /* filter: brightness(40%); */
+}
+body {
+  font-family: Poppins;
+  font-weight: 500;
+}
+img {
+  width: 250px;
+  margin-top: auto;
+}
+figure {
+  margin: 20px;
+  text-align: center;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+figcaption {
+  display: none;
+  color: white;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+section div {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: -1000;
+}
+/* figure:hover {
+  animation: ani 1s linear;
+}
+@keyframes ani {
+  from {
+    transform: scale(3);
+  }
+  to {
+    transform: initial;
+  }
+} */
